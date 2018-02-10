@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flex Kit</title>
+  <style>
+    body {
+      font-size: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-content: space-evenly;
+      background-color: aliceblue;s
+
+    }
+    .title1 {
+      flex: 1;
+
+      flex-shrink: 1;
+    }
+    .title2 {
+      flex:  20px;
+      -webkit-order: 0;
+      -moz-order: 0;
+      -ms-order: 0;
+      -o-order: 0;
+      order: 0;
+
+    }
+    h1 {
+      flex:  1;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="title1">Garth</h1>
+  <h1 class="title2">is</h1>
+  <h1 class="title3">Rad</h1>
+</body>
+</html>
